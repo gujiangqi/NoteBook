@@ -1,0 +1,6 @@
+MAGO P J, FUMO N, CHAMRA L M 2010. Performance analysis of CCHP and CHP systems operating following the thermal and electric load. International Journal of Energy Research [J], 33: 852-864.
+[4]	WANG J-J, JING Y-Y, ZHANG C-F, et al. 2011. Performance comparison of combined cooling heating and power system in different operation modes. Applied Energy [J], 88: 4621-4631.
+[5]	KAVVADIAS K C, TOSIOS A P, MAROULIS Z B 2010. Design of a combined heating, cooling and power system: Sizing, operation strategy selection and parametric analysis. Energy Conversion & Management [J], 51: 833-845.
+[6]	P. J, CHAMRA, L. M 2009. Analysis and optimization of CCHP systems based on energy, economical, and environmental considerations. Energy & Buildings [J], 41: 1099-1106.
+[7]	FANG F, WANG Q H, SHI Y 2012. A Novel Optimal Operational Strategy for the CCHP System Based on Two Operating Modes. IEEE Transactions on Power Systems [J], 27: 1032-1041.
+[8]	JING Y Y, BAI H, WANG J J 2012. Multi-objective optimization design and operation strategy analysis of BCHP system based on life cycle assessment. Energy [J], 37: 405-416.

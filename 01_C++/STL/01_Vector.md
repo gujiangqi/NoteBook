@@ -54,6 +54,24 @@ vector采用模板类实现，vector对象的默认构造函数
     vecInt.resize(10);  //重新设置扩容至10，并用默认值进行填充
     vecInt.resize(12,4);//重新设置扩容至12，并用4进行填充
 ```
+* vector的容量是指在**不分配更多内存的情况下可以保存的最多元素个数**
+* vector的大小是指在**它实际所包含的元素个数**
+```C++
+	vector<int> v = { 1,2,3,45,6,7 };
+	cout << "vector的大小：" << v.size() << endl;
+	cout << "vector的容量：" << v.capacity() << endl;
+
+	v.push_back(10);
+	cout << "vector的新大小：" << v.size() << endl;
+	cout << "vector的新容量：" << v.capacity() << endl;
+```
+输出结果
+```
+    vector的大小：6
+    vector的容量：6
+    vector的新大小：7
+    vector的新容量：9
+```
 # vector的移除与添加操作
 ```C++
     vecIntA.push_back(2);   //添加一个元素
@@ -81,8 +99,16 @@ vector采用模板类实现，vector对象的默认构造函数
         int iltem = *i;
         cout << iltem << " ";
     }
+    
 ```
 注：
 1. 这里的iterator只可以采用读取操作，不可以进行数据的修改
 2. vec.begin()和vec.end()返回一个**iterator**的数据类型，分别指向第一个数值和最后一个数值
 3. vec.rbegin()和vec.rend()返回一个**reverse_iterator**的数据类型，分别指向最后一个数值和第一个数值
+# vector的遍历
+* vector遍历可以通过下标索引的方法，可以不用通过迭代器进行遍历
+# vector的删除操作
+```C++
+    vecIntB.erase(vecIntB.begin(), vecIntB.begin() + 2);
+    vecIntB.clear();  //清楚vecIntB中的所有元素
+```
